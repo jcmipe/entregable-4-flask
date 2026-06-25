@@ -34,3 +34,43 @@ Store this prompt under:
 
 - `ai/prompts/task/entregable_4/05_generate_documents.md`
 ```
+
+## Generated output
+
+Se revisó la documentación posterior a la implementación, pruebas y
+publicación del Entregable 4.
+
+Archivo creado:
+
+- `docs/requirements/task/entregable_4/README.md`
+
+La documentación específica incluye:
+
+- resultado implementado;
+- contrato de `GET /`;
+- versiones de Python, Flask y pytest;
+- instalación y ejecución local;
+- ejecución de pruebas;
+- construcción y ejecución con Docker;
+- imagen publicada y comandos de descarga;
+- funcionamiento del pipeline;
+- nombres de los secretos requeridos;
+- verificaciones finales realizadas;
+- enlaces reales de GitHub y Docker Hub.
+
+No se modificó el `README.md` de la raíz durante esta fase.
+
+No se crearon documentos adicionales porque no existe persistencia, una
+arquitectura compleja ni una API pública que requieran documentación separada.
+
+## Related requirement
+
+- `docs/requirements/task/entregable_4/activity.md`
+
+## Related plan
+
+- `ai/plans/task/entregable_4/activity.md`
+
+## Documentation
+
+- `docs/requirements/task/entregable_4/README.md`
