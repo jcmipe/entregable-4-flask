@@ -4,6 +4,11 @@ Aplicación web sencilla desarrollada con Python y Flask. Expone una ruta
 principal, se empaqueta con Docker y publica su imagen en Docker Hub mediante
 GitHub Actions después de ejecutar las pruebas automatizadas.
 
+- Repositorio GitHub:
+  `https://github.com/jcmipe/entregable-4-flask`
+- Imagen Docker Hub:
+  `https://hub.docker.com/r/jcmira/entregable-4-flask`
+
 ## Contrato HTTP
 
 ```text
@@ -134,13 +139,13 @@ Las credenciales no deben almacenarse en el repositorio.
 El repositorio de Docker Hub es `entregable-4-flask`.
 
 ```text
-<usuario-dockerhub>/entregable-4-flask:latest
-<usuario-dockerhub>/entregable-4-flask:<sha-del-commit>
+jcmira/entregable-4-flask:latest
+jcmira/entregable-4-flask:<sha-del-commit>
 ```
 
 Descargar y ejecutar la última imagen:
 
 ```powershell
-docker pull <usuario-dockerhub>/entregable-4-flask:latest
-docker run --rm -p 5000:5000 <usuario-dockerhub>/entregable-4-flask:latest
+docker pull jcmira/entregable-4-flask:latest
+docker run --rm -p 5000:5000 jcmira/entregable-4-flask:latest
 ```
