@@ -51,6 +51,8 @@ La documentación específica incluye:
 - versiones de Python, Flask y pytest;
 - instalación y ejecución local;
 - ejecución de pruebas;
+- comprobación del mensaje esperado mediante un valor independiente del código
+  de producción;
 - construcción y ejecución con Docker;
 - imagen publicada y comandos de descarga;
 - funcionamiento del pipeline;

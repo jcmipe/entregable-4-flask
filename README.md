@@ -86,8 +86,8 @@ Las pruebas automatizadas están bajo `tests/` y se ejecutan con:
 python -m pytest -q
 ```
 
-La prueba valida el código HTTP `200`, el formato JSON y el mensaje exacto de
-la ruta principal, incluidos sus caracteres Unicode.
+La prueba valida el código HTTP `200`, el formato JSON y el mensaje literal
+definido por el requisito, incluidos sus caracteres Unicode.
 
 ## Docker
 

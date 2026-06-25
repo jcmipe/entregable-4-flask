@@ -77,7 +77,10 @@ La prueba comprueba:
 - estado HTTP `200`;
 - respuesta JSON;
 - propiedad `message`;
-- saludo exacto, incluidos sus caracteres Unicode.
+- saludo literal definido por el requisito, incluidos sus caracteres Unicode.
+
+El valor esperado se declara dentro de la prueba para que un cambio accidental
+del mensaje de producción provoque un fallo verificable.
 
 Resultado verificado:
 

@@ -56,6 +56,8 @@ Comportamientos cubiertos:
 - El cuerpo contiene únicamente la propiedad `message`.
 - El mensaje coincide exactamente con el saludo aprobado, incluidos sus
   caracteres Unicode.
+- El valor esperado se define de forma independiente en el test y no se obtiene
+  de la constante del código de producción.
 
 No se añadieron pruebas de persistencia, autenticación, autorización,
 integraciones externas, rutas adicionales ni métodos HTTP no definidos porque

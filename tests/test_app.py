@@ -7,7 +7,7 @@ sys.path.insert(0, str(CODE_DIRECTORY))
 
 app_module = importlib.import_module("app")
 app = app_module.app
-GREETING_MESSAGE = app_module.GREETING_MESSAGE
+EXPECTED_MESSAGE = "Hola, esta es la aplicación Flask del Entregable 4."
 
 
 def test_home_returns_expected_json_response() -> None:
@@ -17,4 +17,4 @@ def test_home_returns_expected_json_response() -> None:
 
     assert response.status_code == 200
     assert response.is_json
-    assert response.get_json() == {"message": GREETING_MESSAGE}
+    assert response.get_json() == {"message": EXPECTED_MESSAGE}
